@@ -1,0 +1,17 @@
+@import 'vars.scss';
+@import 'fonts.scss';
+@import 'normalize.scss';
+
+html {
+  box-sizing: border-box;
+
+  & *,
+  & *::after,
+  & *::before {
+    box-sizing: inherit;
+  }
+}
+
+body {
+  background-color: white;
+}

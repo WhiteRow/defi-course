@@ -1,0 +1,27 @@
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.col {
+  &--info {
+    max-width: 498px;
+    margin-right: 166px;
+  }
+}
+
+.title {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 74px;
+  color: var(--black);
+
+  &__highlight {
+    color: var(--purple);
+  }
+}
+
+.image {
+  width: 534px;
+  height: 483px;
+}

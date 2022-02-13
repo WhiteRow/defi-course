@@ -1,0 +1,13 @@
+.section {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding-left: var(--content-gutter-x);
+  padding-right: var(--content-gutter-x);
+  padding-top: var(--content-gutter-y);
+  padding-bottom: var(--content-gutter-y);
+}
