@@ -1,8 +1,9 @@
+import classNames from 'classnames';
 import styles from './styles.module.scss';
 
-export const LandingLayout = ({ children }) => {
+export const View = ({ children, className }) => {
   return (
-    <section className={styles.section}>
+    <section className={classNames(styles.section, className)}>
       <div className={styles.container}>{children}</div>
     </section>
   );

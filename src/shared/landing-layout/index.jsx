@@ -1,3 +1,3 @@
-import { LandingLayout } from './ui';
+import { View } from './ui';
 
-export default LandingLayout;
+export const LandingLayout = View;

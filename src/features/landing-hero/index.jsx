@@ -1,11 +1,12 @@
 import classNames from 'classnames';
 import { HeroImage } from '../../images'
-import LandingLayout from "../../shared/landing-layout";
+import { LandingLayout } from "../../shared/landing-layout";
+import { BuyButton } from '../../shared/button';
 import styles from './styles.module.scss';
 
-function LandingHero() {
+export const LandingHero = () => {
   return (
-    <LandingLayout>
+    <LandingLayout className={styles.layout}>
       <div className={styles.row}>
         <div className={classNames(styles.col, styles['col--info'])}>
           <h1 className={styles.title}>
@@ -16,7 +17,8 @@ function LandingHero() {
             Не упусти свой шанс заработать на революции финансовой системы
           </p>
           <div className={styles.actions}>
-
+            <BuyButton />
+            <p className={styles['actions__text']}>Успей до 14 марта</p>
           </div>
         </div>
         <div className={styles.col}>
@@ -26,5 +28,3 @@ function LandingHero() {
     </LandingLayout>
   );
 }
-
-export default LandingHero;
