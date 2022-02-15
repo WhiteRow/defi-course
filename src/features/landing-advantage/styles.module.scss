@@ -1,0 +1,29 @@
+.row {
+  display: flex;
+  align-items: start;
+  width: 100%;
+}
+
+.col {
+  &--info {
+    max-width: 646px;
+    margin-right: 55px;
+  }
+}
+
+.title {
+  margin-bottom: 26px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 517px;
+  margin-bottom: 20px;
+  color: var(--black-dark-100);
+}
+
+.author {
+  font-size: 14px;
+  color: var(--purple-light-200);
+}
