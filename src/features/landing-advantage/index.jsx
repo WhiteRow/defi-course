@@ -2,8 +2,8 @@ import { LandingLayout } from '../../shared/landing-layout';
 import { SectionTitle } from '../../shared/section-title';
 import { AdvantageImage } from '../../images'
 
-import styles from './styles.module.scss';
 import classNames from 'classnames';
+import styles from './styles.module.scss';
 
 export const LandingAdvantage = () => {
   return (

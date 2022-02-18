@@ -1,0 +1,31 @@
+.layout {
+  margin-top: 180px;
+  background-color: #F0F3FB;
+  background-image: url('../../images/questions-bg.png');
+  background-repeat: no-repeat;
+}
+
+.row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 422px;
+  margin-bottom: 28px;
+  color: var(--black-dark-100);
+}
+
+.image {
+  position: absolute;
+  bottom: 0;
+  right: 154px;
+}

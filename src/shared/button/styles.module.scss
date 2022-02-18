@@ -35,4 +35,14 @@
       background: var(--purple-dark-200);
     }
   }
+
+  &--iconed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & .text {
+      margin-right: 6px;
+    }
+  }
 }
