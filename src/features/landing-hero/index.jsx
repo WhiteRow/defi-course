@@ -22,7 +22,7 @@ export const LandingHero = () => {
           </div>
         </div>
         <div className={styles.col}>
-          <img src={HeroImage} alt="pic" className={styles.image} />
+          <img src={HeroImage} alt="" className={styles.image} />
         </div>
       </div>
     </LandingLayout>

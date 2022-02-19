@@ -4,6 +4,7 @@ import { LandingLayout } from '../../shared/landing-layout';
 import { SectionTitle } from '../../shared/section-title';
 import { BuyButton } from '../../shared/button';
 import IconClock from '../../icons/IconClock';
+import IconRuble from '../../icons/IconRuble';
 
 import styles from './styles.module.scss';
 
@@ -22,8 +23,14 @@ export const LandingCheckout = () => {
             <p className={styles['buy__subtitle']}>
               Скидка будет действовать до 14 марта 2022 г.
             </p>
-            <div className={styles['buy__old-price']}>35 000 ₽</div>
-            <div className={styles['buy__price']}>16 490 ₽</div>
+            <div className={styles['buy__old-price']}>
+              35 000
+              <IconRuble className={styles.buy__icon} />
+            </div>
+            <div className={styles['buy__price']}>
+              16 490
+              <IconRuble className={styles.buy__icon} />
+            </div>
             <BuyButton />
             <div className={styles.time}>
               <IconClock className={styles['time__icon']} />

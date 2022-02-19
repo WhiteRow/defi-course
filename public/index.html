@@ -12,10 +12,44 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Начни зарабатывать в DeFi </title>
+    <style>
+      .modal__close {
+        border: 0;
+        background-color: transparent;
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!-- <script id="f35e4b44c37da5fe7c4fe30a86af391fc12e47e1" src="https://edu.cryptoinside.tech/pl/lite/widget/script?id=605699"></script> -->
+    <div class="modal modal--base modal--hidden">
+      <div class="modal__wrapper">
+        <button class="modal__close">
+          <div class="modal__close-line"></div>
+          <div class="modal__close-line"></div>
+        </button>
+        <script id="f35e4b44c37da5fe7c4fe30a86af391fc12e47e1" src="https://edu.cryptoinside.tech/pl/lite/widget/script?id=605699"></script>
+      </div>
+    </div>
+    <script>
+      const closeBtn = document.querySelectorAll('.modal__close');
+      const modals = document.querySelectorAll('.modal');
+
+      function closeModal() {
+
+        modals.forEach(modal => {
+          modal.classList.add('modal--hidden');
+        })
+        document.body.style.overflow = 'auto';
+      }
+
+      closeBtn.forEach(btn => {
+        btn.addEventListener('click', closeModal);
+      });
+      
+      modals.forEach(modal => {
+        modal.addEventListener('click', closeModal);
+      });
+    </script>
   </body>
 </html>
