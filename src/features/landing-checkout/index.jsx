@@ -10,7 +10,7 @@ import styles from './styles.module.scss';
 
 export const LandingCheckout = () => {
   return (
-    <LandingLayout className={styles.layout}>
+    <LandingLayout className={styles.layout} optionalType>
       <SectionTitle
         className={styles.title}
         text={'Начни зарабатывать в DeFi за 14 дней'}

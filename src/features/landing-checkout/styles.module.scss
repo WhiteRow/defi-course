@@ -8,23 +8,39 @@
 .subtitle {
   font-size: 16px;
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 28px;
   color: var(--black-dark-100);
+
+  @media screen and (min-width: 600px) {
+    margin-bottom: 60px;
+  }
 }
 
 .row {
   display: flex;
+  flex-direction: column;
   align-items: start;
-  padding-left: 120px;
-  padding-right: 120px;
+
+  @media screen and (min-width: 600px) {
+    flex-direction: row;
+  }
 }
 
 .col {
-  height: 445px;
+  @media screen and (min-width: 600px) {
+    height: 445px;
+  }
 
   &--buy {
-    width: 391px;
-    margin-right: 37px;
+    width: 100%;
+    height: 445px;
+    margin-bottom: 26px;
+
+    @media screen and (min-width: 600px) {
+      width: 391px;
+      margin-right: 37px;
+      margin-bottom: 0;
+    }
   }
 }
 
@@ -33,9 +49,13 @@
   justify-items: center;
   align-items: center;
   flex-direction: column;
-  padding: 40px 36px;
+  padding: 40px 20px;
   box-shadow: 4px 4px 20px #ededed;
   border-radius: 20px;
+
+  @media screen and (min-width: 600px) {
+    padding: 40px 36px;
+  }
 
   &__subtitle {
     font-size: 16px;
@@ -79,10 +99,14 @@
   display: flex;
   align-items: center;
   width: 100%;
-  padding: 12px 30px;
+  padding: 12px 20px;
   margin-top: 50px;
   background: #F5F5FD;
   border-radius: 16px;
+
+  @media screen and (min-width: 600px) {
+    padding: 12px 30px;
+  }
 
   &__icon {
     flex-shrink: 0;

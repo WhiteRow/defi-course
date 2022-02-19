@@ -10,4 +10,9 @@
   padding-right: var(--content-gutter-x);
   padding-top: var(--content-gutter-y);
   padding-bottom: var(--content-gutter-y);
+
+  &--gutter-optional {
+    padding-left: var(--content-gutter-x-optional);
+    padding-right: var(--content-gutter-x-optional);
+  }
 }

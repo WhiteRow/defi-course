@@ -12,9 +12,12 @@
   --font: 'gotham-pro';
   --content-width: 1440px;
   --content-gutter-x: 24px;
-  --content-gutter-y: 50px;
+  --content-gutter-y: 30px;
+  --content-gutter-x-optional: 24px;
 
   @media screen and (min-width: 1280px) {
     --content-gutter-x: 110px;
+    --content-gutter-x-optional: 234px;
+    --content-gutter-y: 50px;
   }
 }

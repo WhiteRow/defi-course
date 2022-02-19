@@ -9,7 +9,7 @@ import styles from './styles.module.scss';
 
 export const LandingQuestion = () => {
   return (
-    <LandingLayout className={styles.layout}>
+    <LandingLayout className={styles.layout} optionalType>
       <div className={styles.row}>
         <div className={classNames(styles.col, styles['col--info'])}>
           <SectionTitle text={'Остались вопросы?'} className={styles.title} />
@@ -18,7 +18,7 @@ export const LandingQuestion = () => {
           </p>
           <HelpButton />
         </div>
-        <div className={styles.col}>
+        <div className={classNames(styles.col, styles['col--image'])}>
           <img src={QuestionImage} alt="pic" className={styles.image} />
         </div>
       </div>
