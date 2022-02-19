@@ -1,4 +1,4 @@
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import classNames from 'classnames';
 
 import { HeroImage } from '../../images'
