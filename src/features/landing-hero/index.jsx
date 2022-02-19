@@ -1,7 +1,10 @@
+import { Link, animateScroll as scroll } from "react-scroll";
 import classNames from 'classnames';
+
 import { HeroImage } from '../../images'
 import { LandingLayout } from "../../shared/landing-layout";
 import { BuyButton } from '../../shared/button';
+
 import styles from './styles.module.scss';
 
 export const LandingHero = () => {
@@ -17,8 +20,17 @@ export const LandingHero = () => {
             Не упусти свой шанс заработать на революции финансовой системы
           </p>
           <div className={styles.actions}>
-            <BuyButton />
-            <p className={styles['actions__text']}>Успей до 14 марта</p>
+            <Link
+              activeClass="active"
+              to="checkout"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              >
+              <BuyButton />
+            </Link>
+            <p className={styles['actions__text']}>Успей до 18 марта</p>
           </div>
         </div>
         <div className={styles.col}>
