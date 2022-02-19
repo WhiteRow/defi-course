@@ -14,7 +14,7 @@ const openHelp = () => {
   window.location.href = socials[1].link;
 }
 
-export const BuyButton = () => <Button text="Предзаказ" onClick={openCheckoutModal} />;
+export const BuyButton = ({ handler }) => <Button text="Предзаказ" onClick={ handler && openCheckoutModal} />;
 export const HelpButton = () => (
   <Button text="Написать" type={['secondary', 'small', 'iconed']} icon={TelegramIcon} onClick={openHelp}/>
 );

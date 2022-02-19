@@ -13,7 +13,7 @@
 
 .col {
   &--info {
-    max-width: 306px;
+    max-width: 320px;
     margin-bottom: 49px;
 
     @media screen and (min-width: 600px) {
@@ -77,10 +77,8 @@
 
 .image {
   width: 327px;
-  height: 296px;
 
   @media screen and (min-width: 600px) {
     width: 534px;
-    height: 483px;
   }
 }
