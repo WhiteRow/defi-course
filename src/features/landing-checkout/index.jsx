@@ -4,6 +4,7 @@ import { LandingLayout } from '../../shared/landing-layout';
 import { SectionTitle } from '../../shared/section-title';
 import { BuyButton } from '../../shared/button';
 import IconClock from '../../icons/IconClock';
+import IconRuble from '../../icons/IconRuble';
 
 import styles from './styles.module.scss';
 
@@ -24,11 +25,11 @@ export const LandingCheckout = () => {
             </p>
             <div className={styles['buy__old-price']}>
               <div className={styles.buy__text}>35 000</div>
-              <div className={styles.buy__icon}>₽</div>
+              <IconRuble className={styles.buy__icon} />
             </div>
             <div className={styles['buy__price']}>
               <div className={styles.buy__text}>16 490</div>
-              <div className={styles.buy__icon}>₽</div>
+              <IconRuble className={styles.buy__icon} />
             </div>
             <BuyButton handler />
             <div className={styles.time}>
