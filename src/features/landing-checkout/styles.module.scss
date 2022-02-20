@@ -57,6 +57,10 @@
     padding: 40px 36px;
   }
 
+  &__text {
+    flex-shrink: 0;
+  }
+
   &__icon {
     display: inline-block;
   }
