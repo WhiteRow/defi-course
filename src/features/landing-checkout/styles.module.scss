@@ -73,9 +73,10 @@
   &__old-price {
     font-weight: 700;
     font-size: 24px;
-    line-height: 34px;
+    line-height: 24px;
     display: flex;
     align-items: center;
+    margin-bottom: 6px;
     color: var(--gray);
     text-decoration: line-through;
 
@@ -89,7 +90,7 @@
   &__price {
     font-weight: 900;
     font-size: 36px;
-    line-height: 46px;
+    line-height: 36px;
     display: flex;
     align-items: center;
     margin-bottom: 40px;
