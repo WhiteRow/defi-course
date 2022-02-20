@@ -63,7 +63,7 @@
   }
 
   &__icon {
-    flex-shrink: 0;
+    font-family: sans-serif;
   }
 
   &__subtitle {
@@ -83,12 +83,6 @@
     align-items: center;
     color: var(--gray);
     text-decoration: line-through;
-
-    & .buy__icon {
-      --size: 17px;
-      width: var(--size);
-      height: var(--size);
-    }
   }
 
   &__price {
@@ -99,12 +93,6 @@
     align-items: center;
     margin-bottom: 40px;
     color: var(--black);
-
-    & .buy__icon {
-      --size: 28px;
-      width: var(--size);
-      height: var(--size);
-    }
   }
 }
 
