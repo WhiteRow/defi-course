@@ -58,7 +58,8 @@
   }
 
   &__text {
-    width: 100%;
+    width: fit-content;
+    flex-shrink: 0;
   }
 
   &__icon {
