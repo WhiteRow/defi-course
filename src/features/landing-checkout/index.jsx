@@ -24,11 +24,11 @@ export const LandingCheckout = () => {
               Скидка будет действовать до 18 марта 2022 г.
             </p>
             <div className={styles['buy__old-price']}>
-              35 000
+              <span>35 000</span>
               <IconRuble className={styles.buy__icon} />
             </div>
             <div className={styles['buy__price']}>
-              16 490
+              <span>16 490</span>
               <IconRuble className={styles.buy__icon} />
             </div>
             <BuyButton handler />
