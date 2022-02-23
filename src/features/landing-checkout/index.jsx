@@ -21,7 +21,7 @@ export const LandingCheckout = () => {
         <div className={classNames(styles.col, styles['col--buy'])}>
           <div className={styles.buy}>
             <p className={styles['buy__subtitle']}>
-              Скидка будет действовать до 18 марта 2022 г.
+              Скидка будет действовать до 24 марта 2022 г.
             </p>
             <div className={styles['buy__old-price']}>
               <div className={styles.buy__text}>35 000</div>
@@ -35,7 +35,7 @@ export const LandingCheckout = () => {
             <div className={styles.time}>
               <IconClock className={styles['time__icon']} />
               <div className={styles['time__text']}>
-                Доступ к материалам откроется 18 марта
+                Доступ к материалам откроется 24 марта
               </div>
             </div>
           </div>
