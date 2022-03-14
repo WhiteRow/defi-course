@@ -30,7 +30,7 @@ export const LandingHero = () => {
               >
               <BuyButton />
             </Link>
-            <p className={styles['actions__text']}>Успей до 18 марта</p>
+            <p className={styles['actions__text']}>Набор на второй поток 7 апреля</p>
           </div>
         </div>
         <div className={styles.col}>

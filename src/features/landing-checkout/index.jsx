@@ -21,21 +21,21 @@ export const LandingCheckout = () => {
         <div className={classNames(styles.col, styles['col--buy'])}>
           <div className={styles.buy}>
             <p className={styles['buy__subtitle']}>
-              Скидка будет действовать до 18 марта 2022 г.
+              Набор на первый поток завершен
             </p>
-            <div className={styles['buy__old-price']}>
-              35 000
+            {/* <div className={styles['buy__old-price']}>
+              <div className={styles.buy__text}>35 000</div>
               <IconRuble className={styles.buy__icon} />
-            </div>
+            </div> */}
             <div className={styles['buy__price']}>
-              16 490
+              <div className={styles.buy__text}>35 000</div>
               <IconRuble className={styles.buy__icon} />
             </div>
             <BuyButton handler />
             <div className={styles.time}>
               <IconClock className={styles['time__icon']} />
               <div className={styles['time__text']}>
-                Доступ к материалам откроется 18 марта
+                Набор на второй поток начнется 7 апреля
               </div>
             </div>
           </div>
