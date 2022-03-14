@@ -3,17 +3,6 @@ import { socials } from '../../shared/config';
 import Button from './ui';
 import TelegramIcon from '../../icons/IconTelegram';
 
-const checkoutContent = () => {
-  const nowDate = new Date().getDate();
-  const nowMonth = new Date().getMonth();
-
-  if (nowDate === 24 && nowMonth === 3) {
-    return 'Купить';
-  } else {
-    return 'Предзаказ';
-  }
-};
-
 const openCheckoutModal = () => {
   const modal = document.querySelector('.modal');
   const body = document.body;
@@ -26,7 +15,7 @@ const openHelp = () => {
 };
 
 export const BuyButton = ({ handler }) => (
-  <Button text={checkoutContent()} onClick={handler && openCheckoutModal} />
+  <Button text={'Продажи закрыты'} onClick={handler && openCheckoutModal} disabled={true} />
 );
 export const HelpButton = () => (
   <Button
