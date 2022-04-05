@@ -15,7 +15,7 @@ const openHelp = () => {
 };
 
 export const BuyButton = ({ handler }) => (
-  <Button text={'Продажи закрыты'} onClick={handler && openCheckoutModal} disabled={true} />
+  <Button text={'Купить'} onClick={handler && openCheckoutModal} />
 );
 export const HelpButton = () => (
   <Button

@@ -21,7 +21,7 @@ export const LandingCheckout = () => {
         <div className={classNames(styles.col, styles['col--buy'])}>
           <div className={styles.buy}>
             <p className={styles['buy__subtitle']}>
-              Набор на первый поток завершен
+              Идет набор на второй поток
             </p>
             {/* <div className={styles['buy__old-price']}>
               <div className={styles.buy__text}>35 000</div>
@@ -35,7 +35,7 @@ export const LandingCheckout = () => {
             <div className={styles.time}>
               <IconClock className={styles['time__icon']} />
               <div className={styles['time__text']}>
-                Набор на второй поток начнется 7 апреля
+                Доступ к материалам откроется 24 апреля
               </div>
             </div>
           </div>
