@@ -21,21 +21,21 @@ export const LandingCheckout = () => {
         <div className={classNames(styles.col, styles['col--buy'])}>
           <div className={styles.buy}>
             <p className={styles['buy__subtitle']}>
-              Идет набор на второй поток
+              Идет набор на третий поток
             </p>
             {/* <div className={styles['buy__old-price']}>
               <div className={styles.buy__text}>35 000</div>
               <IconRuble className={styles.buy__icon} />
             </div> */}
             <div className={styles['buy__price']}>
-              <div className={styles.buy__text}>35 000</div>
+              <div className={styles.buy__text}>24900</div>
               <IconRuble className={styles.buy__icon} />
             </div>
             <BuyButton handler />
             <div className={styles.time}>
               <IconClock className={styles['time__icon']} />
               <div className={styles['time__text']}>
-                Доступ к материалам откроется 24 апреля
+                Доступ к материалам откроется 28 мая
               </div>
             </div>
           </div>
