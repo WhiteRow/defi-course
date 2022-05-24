@@ -28,14 +28,14 @@ export const LandingCheckout = () => {
               <IconRuble className={styles.buy__icon} />
             </div> */}
             <div className={styles['buy__price']}>
-              <div className={styles.buy__text}>24900</div>
+              <div className={styles.buy__text}>24 900</div>
               <IconRuble className={styles.buy__icon} />
             </div>
             <BuyButton handler />
             <div className={styles.time}>
               <IconClock className={styles['time__icon']} />
               <div className={styles['time__text']}>
-                Доступ к материалам откроется 28 мая
+                Доступ к материалам откроется 6 июня
               </div>
             </div>
           </div>
