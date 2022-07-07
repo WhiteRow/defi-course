@@ -28,12 +28,12 @@
 
 .col {
   @media screen and (min-width: 600px) {
-    height: 445px;
+    // height: 445px;
   }
 
   &--buy {
     width: 100%;
-    height: 445px;
+    // height: 445px;
     margin-bottom: 26px;
 
     @media screen and (min-width: 600px) {
@@ -144,7 +144,10 @@
 
 .info {
   height: 100%;
+  margin-left: -22px;
+  margin-right: -22px;
   padding: 42px 32px;
+  margin-bottom: 20px;
   background-color: #F5F5FD;
   border-radius: 16px;
 
@@ -183,6 +186,7 @@
 
     &::before {
       content: '';
+      flex-shrink: 0;
       display: block;
       width: 8px;
       height: 8px;
